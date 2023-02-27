@@ -1,5 +1,5 @@
 FROM php:7-apache
-MAINTAINER Dare dare@zooto.io
+MAINTAINER Robin
 RUN apt-get update
 
 RUN docker-php-ext-install mysqli
